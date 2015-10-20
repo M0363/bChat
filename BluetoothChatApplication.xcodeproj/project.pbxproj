@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D903D7571B83346D00D33576 /* cross.gif in Resources */ = {isa = PBXBuildFile; fileRef = D903D7561B83346D00D33576 /* cross.gif */; };
+		D903D75D1B836AF800D33576 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = D903D7581B836AF800D33576 /* Icon-40.png */; };
+		D903D75E1B836AF800D33576 /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D903D7591B836AF800D33576 /* Icon-40@2x.png */; };
+		D903D75F1B836AF800D33576 /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D903D75A1B836AF800D33576 /* Icon-40@3x.png */; };
+		D903D7601B836AF800D33576 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D903D75B1B836AF800D33576 /* Icon-60@2x.png */; };
+		D903D7611B836AF800D33576 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D903D75C1B836AF800D33576 /* Icon-60@3x.png */; };
+		D9EAF7A91B844F3600C0F882 /* SavedDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9EAF7A71B844F3600C0F882 /* SavedDataModel.xcdatamodeld */; };
+		D9EAF7AD1B84500A00C0F882 /* CHATBOX.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EAF7AC1B84500A00C0F882 /* CHATBOX.m */; };
+		D9F700F41B8B319200AB80CF /* chatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F700F31B8B319200AB80CF /* chatTableViewCell.m */; };
+		D9F700F61B8B4F9200AB80CF /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F700F51B8B4F9200AB80CF /* user.png */; };
 		D9F73CE21B8205F4000679AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F73CE11B8205F4000679AB /* main.m */; };
 		D9F73CE51B8205F4000679AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F73CE41B8205F4000679AB /* AppDelegate.m */; };
 		D9F73CE81B8205F4000679AB /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F73CE71B8205F4000679AB /* FirstViewController.m */; };
@@ -16,6 +26,8 @@
 		D9F73CF31B8205F4000679AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F73CF11B8205F4000679AB /* LaunchScreen.storyboard */; };
 		D9F73CFE1B8205F5000679AB /* BluetoothChatApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F73CFD1B8205F5000679AB /* BluetoothChatApplicationTests.m */; };
 		D9F73D091B8205F5000679AB /* BluetoothChatApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F73D081B8205F5000679AB /* BluetoothChatApplicationUITests.m */; };
+		D9F73D181B820666000679AB /* ConnectionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F73D171B820666000679AB /* ConnectionsViewController.m */; };
+		D9F73D1B1B820BB4000679AB /* MCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F73D1A1B820BB4000679AB /* MCManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D903D7561B83346D00D33576 /* cross.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cross.gif; sourceTree = "<group>"; };
+		D903D7581B836AF800D33576 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		D903D7591B836AF800D33576 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		D903D75A1B836AF800D33576 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		D903D75B1B836AF800D33576 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		D903D75C1B836AF800D33576 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		D9EAF7A81B844F3600C0F882 /* SavedDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavedDataModel.xcdatamodel; sourceTree = "<group>"; };
+		D9EAF7AA1B84500A00C0F882 /* CHATBOX+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CHATBOX+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D9EAF7AB1B84500A00C0F882 /* CHATBOX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHATBOX.h; sourceTree = "<group>"; };
+		D9EAF7AC1B84500A00C0F882 /* CHATBOX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHATBOX.m; sourceTree = "<group>"; };
+		D9F700F21B8B319200AB80CF /* chatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chatTableViewCell.h; sourceTree = "<group>"; };
+		D9F700F31B8B319200AB80CF /* chatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chatTableViewCell.m; sourceTree = "<group>"; };
+		D9F700F51B8B4F9200AB80CF /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
 		D9F73CDD1B8205F4000679AB /* BluetoothChatApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothChatApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F73CE11B8205F4000679AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9F73CE31B8205F4000679AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +79,10 @@
 		D9F73D041B8205F5000679AB /* BluetoothChatApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothChatApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F73D081B8205F5000679AB /* BluetoothChatApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothChatApplicationUITests.m; sourceTree = "<group>"; };
 		D9F73D0A1B8205F5000679AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F73D161B820666000679AB /* ConnectionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionsViewController.h; sourceTree = "<group>"; };
+		D9F73D171B820666000679AB /* ConnectionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionsViewController.m; sourceTree = "<group>"; };
+		D9F73D191B820BB4000679AB /* MCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCManager.h; sourceTree = "<group>"; };
+		D9F73D1A1B820BB4000679AB /* MCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +133,13 @@
 		D9F73CDF1B8205F4000679AB /* BluetoothChatApplication */ = {
 			isa = PBXGroup;
 			children = (
+				D9F700F51B8B4F9200AB80CF /* user.png */,
+				D903D7581B836AF800D33576 /* Icon-40.png */,
+				D903D7591B836AF800D33576 /* Icon-40@2x.png */,
+				D903D75A1B836AF800D33576 /* Icon-40@3x.png */,
+				D903D75B1B836AF800D33576 /* Icon-60@2x.png */,
+				D903D75C1B836AF800D33576 /* Icon-60@3x.png */,
+				D903D7561B83346D00D33576 /* cross.gif */,
 				D9F73CE31B8205F4000679AB /* AppDelegate.h */,
 				D9F73CE41B8205F4000679AB /* AppDelegate.m */,
 				D9F73CE61B8205F4000679AB /* FirstViewController.h */,
@@ -115,6 +151,16 @@
 				D9F73CF11B8205F4000679AB /* LaunchScreen.storyboard */,
 				D9F73CF41B8205F4000679AB /* Info.plist */,
 				D9F73CE01B8205F4000679AB /* Supporting Files */,
+				D9F73D161B820666000679AB /* ConnectionsViewController.h */,
+				D9F73D171B820666000679AB /* ConnectionsViewController.m */,
+				D9F73D191B820BB4000679AB /* MCManager.h */,
+				D9F73D1A1B820BB4000679AB /* MCManager.m */,
+				D9EAF7A71B844F3600C0F882 /* SavedDataModel.xcdatamodeld */,
+				D9EAF7AA1B84500A00C0F882 /* CHATBOX+CoreDataProperties.h */,
+				D9EAF7AB1B84500A00C0F882 /* CHATBOX.h */,
+				D9EAF7AC1B84500A00C0F882 /* CHATBOX.m */,
+				D9F700F21B8B319200AB80CF /* chatTableViewCell.h */,
+				D9F700F31B8B319200AB80CF /* chatTableViewCell.m */,
 			);
 			path = BluetoothChatApplication;
 			sourceTree = "<group>";
@@ -251,6 +297,13 @@
 				D9F73CF31B8205F4000679AB /* LaunchScreen.storyboard in Resources */,
 				D9F73CF01B8205F4000679AB /* Assets.xcassets in Resources */,
 				D9F73CEE1B8205F4000679AB /* Main.storyboard in Resources */,
+				D903D75E1B836AF800D33576 /* Icon-40@2x.png in Resources */,
+				D903D7571B83346D00D33576 /* cross.gif in Resources */,
+				D903D75F1B836AF800D33576 /* Icon-40@3x.png in Resources */,
+				D9F700F61B8B4F9200AB80CF /* user.png in Resources */,
+				D903D7611B836AF800D33576 /* Icon-60@3x.png in Resources */,
+				D903D75D1B836AF800D33576 /* Icon-40.png in Resources */,
+				D903D7601B836AF800D33576 /* Icon-60@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +328,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F73D181B820666000679AB /* ConnectionsViewController.m in Sources */,
+				D9F73D1B1B820BB4000679AB /* MCManager.m in Sources */,
+				D9EAF7A91B844F3600C0F882 /* SavedDataModel.xcdatamodeld in Sources */,
 				D9F73CEB1B8205F4000679AB /* SecondViewController.m in Sources */,
 				D9F73CE51B8205F4000679AB /* AppDelegate.m in Sources */,
+				D9EAF7AD1B84500A00C0F882 /* CHATBOX.m in Sources */,
 				D9F73CE81B8205F4000679AB /* FirstViewController.m in Sources */,
+				D9F700F41B8B319200AB80CF /* chatTableViewCell.m in Sources */,
 				D9F73CE21B8205F4000679AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,7 +408,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dharamvir Singh Machra (JX6AN4CUQ7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dharamvir Singh Machra (JX6AN4CUQ7)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -393,7 +452,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dharamvir Singh Machra (JX6AN4CUQ7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dharamvir Singh Machra (JX6AN4CUQ7)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -418,6 +478,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BluetoothChatApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tavant.BluetoothChatApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BluetoothChatApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tavant.BluetoothChatApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +564,7 @@
 				D9F73D0F1B8205F5000679AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9F73D101B8205F5000679AB /* Build configuration list for PBXNativeTarget "BluetoothChatApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +573,7 @@
 				D9F73D121B8205F5000679AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9F73D131B8205F5000679AB /* Build configuration list for PBXNativeTarget "BluetoothChatApplicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,8 +582,22 @@
 				D9F73D151B8205F5000679AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9EAF7A71B844F3600C0F882 /* SavedDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9EAF7A81B844F3600C0F882 /* SavedDataModel.xcdatamodel */,
+			);
+			currentVersion = D9EAF7A81B844F3600C0F882 /* SavedDataModel.xcdatamodel */;
+			path = SavedDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D9F73CD51B8205F4000679AB /* Project object */;
 }
